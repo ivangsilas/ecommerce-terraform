@@ -9,9 +9,7 @@ on:
 jobs:
   terraform:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ecommerce-terraform   # adjust if your .tf files live in the repo root instead
+      # adjust if your .tf files live in the repo root instead
 
     steps:
       - uses: actions/checkout@v4
